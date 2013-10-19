@@ -1,0 +1,139 @@
+/*
+	Common CSS styles
+
+	@author: Ondrej Plsek
+	@website: http://ondraplsek.cz
+	@email: plsek.o@gmail.com
+-----------------------------------*/
+
+/*
+ARIAL:				font-family: sans-serif;
+COURIER:			font-family: monospace;
+GEORGIA:			font-family: Georgia, "New York CE", utopia, sans-serif;
+LUCIDA CONSOLE:		font-family: "Lucida Console", "Monaco CE", fixed, monospace;
+PALATINO LINOTYPE:	font-family: "Palatino Linotype", "New York CE", utopia, serif;
+TAHOMA:				font-family: Tahoma, "Lucida Grande CE", lucida, sans-serif;
+TIMES:				font-family: serif;
+TREBUCHET MS:		font-family: "Trebuchet MS", "Geneva CE", lucida, sans-serif;
+VERDANA:			font-family: Verdana, "Geneva CE", lucida, sans-serif;
+*/
+
+
+
+/* Positioning
+-----------------------------------*/
+
+.r { float: right }
+.l { float: left }
+.c { margin-left: auto; margin-right: auto; }
+
+.imgc { display: block; margin-left: auto; margin-right: auto; }
+.imgr { display: block; text-align: right; }
+.imgl { display: block; text-align: left; }
+
+.textr { text-align: right; }
+.textl { text-align: left; }
+.textc { text-align: center; }
+
+.ml5 { margin-left: 5px; }
+.ml10 { margin-left: 10px; }
+.ml20 { margin-left: 20px; }
+.ml30 { margin-left: 30px; }
+
+.mr5 { margin-right: 5px; }
+.mr10 { margin-right: 10px; }
+.mr20 { margin-right: 20px; } 
+.mr30 { margin-right: 30px; }
+.mr40 { margin-right: 40px; }
+.mr50 { margin-right: 50px; }
+.mr100 { margin-right: 100px; }
+
+.mt5 { margin-top: 5px; }
+.mt10 { margin-top: 10px; }
+.mt20 { margin-top: 20px; } 
+.mt30 { margin-top: 30px; }
+
+.mb5 { margin-bottom: 5px; }
+.mb10 { margin-bottom: 10px; }
+.mb20 { margin-bottom: 20px; }
+.mb30 { margin-bottom: 30px; }
+
+.m5 { margin: 5px; }
+.m10 { margin: 10px; }
+.m20 { margin: 20px; }
+.m30 { margin: 30px; }
+
+.p5 { padding: 5px }
+.p10 { padding: 10px }
+.p15 { padding: 15px }
+.p20 { padding: 20px }  
+.p30 { padding: 30px }   
+
+.pl5 { padding-left: 5px; }
+.pl10 { padding-left: 10px; }
+.pl15 { padding-left: 15px; }
+.pl20 { padding-left: 20px; }
+.pl30 { padding-left: 30px; }
+
+.pr5 { padding-right: 5px; }
+.pr10 { padding-right: 10px; }
+.pr15 { padding-right: 15px; }
+.pr20 { padding-right: 20px; }
+.pr30 { padding-right: 30px; }
+
+.pt5 { padding-top: 5px; }
+.pt10 { padding-top: 10px; }
+.pt15 { padding-top: 15px; }
+.pt20 { padding-top: 20px; }
+.pt30 { padding-top: 30px; }
+
+.pb5 { padding-bottom: 5px; }
+.pb10 { padding-bottom: 10px; }
+.pb15 { padding-bottom: 15px; }
+.pb20 { padding-bottom: 20px; }
+.pb30 { padding-bottom: 30px; }
+
+
+
+
+/* Other
+-----------------------------------*/
+
+.none { display: none }
+.block { display: block }
+.hidden { visibility: hidden; }
+.cleaner { clear: both; display: block; visibility: hidden; }
+.separator { height: 1px; background: #dcdcdc; display: block; margin-top: 20px; margin-bottom: 20px; }
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+
+
+pre { font-size: 12px; line-height: 1.4; padding: 10px; margin: 1.3em 0; overflow: auto; max-height: 500px; background: #F1F5FB; border-radius: 5px; box-shadow: 0 1px 1px rgba(0, 0, 0, .1);  }
+
+
+/* Procentual parts
+-----------------------------------*/
+.third { width: 33.33333333% }
+.third2 { width: 66.6666666666% }
+
+.quart { width: 25% }
+.quart2 { width: 50% }
+.quart3 { width: 75% }
+
+.fifth {width: 20%; }
+.fifth2 {width: 40%; }
+.fifth3 {width: 60%; }
+.fifth4 {width: 80%; }
+
+.half { width: 50% }
