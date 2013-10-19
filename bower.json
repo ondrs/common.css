@@ -1,6 +1,6 @@
 {
   "name": "ondrs-common.css",
-  "version": "0.9",
+  "version": "0.9.0",
   "main": "common.css",
   "ignore": [
     "**/.*",
