@@ -35,71 +35,71 @@ VERDANA:            font-family: Verdana, "Geneva CE", lucida, sans-serif;
 .textl { text-align: left; }
 .textc { text-align: center; }
 
-.ml5 { margin-left: 5px; }
-.ml10 { margin-left: 10px; }
-.ml15 { margin-left: 15px; }
-.ml20 { margin-left: 20px; }
-.ml30 { margin-left: 30px; }
+.ml5 { margin-left: 0.313em; }
+.ml10 { margin-left: 0.625em; }
+.ml15 { margin-left: 10.313em; }
+.ml20 { margin-left: 1.250em; }
+.ml30 { margin-left: 1.875em; }
 .ml40 { margin-left: 40px; }
 .ml50 { margin-left: 50px; }
 .ml100 { margin-left: 100px; }
 
-.mr5 { margin-right: 5px; }
-.mr10 { margin-right: 10px; }
-.mr15 { margin-right: 15px; }
-.mr20 { margin-right: 20px; }
-.mr30 { margin-right: 30px; }
+.mr5 { margin-right: 0.313em; }
+.mr10 { margin-right: 0.625em; }
+.mr15 { margin-right: 10.313em; }
+.mr20 { margin-right: 1.250em; }
+.mr30 { margin-right: 1.875em; }
 .mr40 { margin-right: 40px; }
 .mr50 { margin-right: 50px; }
 .mr100 { margin-right: 100px; }
 
-.mt5 { margin-top: 5px; }
-.mt10 { margin-top: 10px; }
-.mt15 { margin-top: 15px; }
-.mt20 { margin-top: 20px; }
-.mt30 { margin-top: 30px; }
+.mt5 { margin-top: 0.313em; }
+.mt10 { margin-top: 0.625em; }
+.mt15 { margin-top: 10.313em; }
+.mt20 { margin-top: 1.250em; }
+.mt30 { margin-top: 1.875em; }
 
-.mb5 { margin-bottom: 5px; }
-.mb10 { margin-bottom: 10px; }
-.mb15 { margin-bottom: 15px; }
-.mb20 { margin-bottom: 20px; }
-.mb30 { margin-bottom: 30px; }
+.mb5 { margin-bottom: 0.313em; }
+.mb10 { margin-bottom: 0.625em; }
+.mb15 { margin-bottom: 10.313em; }
+.mb20 { margin-bottom: 1.250em; }
+.mb30 { margin-bottom: 1.875em; }
 
-.m5 { margin: 5px; }
-.m10 { margin: 10px; }
-.m15 { margin: 15px; }
-.m20 { margin: 20px; }
-.m30 { margin: 30px; }
+.m5 { margin: 0.313em; }
+.m10 { margin: 0.625em; }
+.m15 { margin: 10.313em; }
+.m20 { margin: 1.250em; }
+.m30 { margin: 1.875em; }
 
-.p5 { padding: 5px }
-.p10 { padding: 10px }
-.p15 { padding: 15px }
-.p20 { padding: 20px }  
-.p30 { padding: 30px }   
+.p5 { padding: 0.313em; }
+.p10 { padding: 0.625em; }
+.p15 { padding: 10.313em; }
+.p20 { padding: 1.250em; }  
+.p30 { padding: 1.875em; }   
 
-.pl5 { padding-left: 5px; }
-.pl10 { padding-left: 10px; }
-.pl15 { padding-left: 15px; }
-.pl20 { padding-left: 20px; }
-.pl30 { padding-left: 30px; }
+.pl5 { padding-left: 0.313em; }
+.pl10 { padding-left: 0.625em; }
+.pl15 { padding-left: 10.313em; }
+.pl20 { padding-left: 1.250em; }
+.pl30 { padding-left: 1.875em; }
 
-.pr5 { padding-right: 5px; }
-.pr10 { padding-right: 10px; }
-.pr15 { padding-right: 15px; }
-.pr20 { padding-right: 20px; }
-.pr30 { padding-right: 30px; }
+.pr5 { padding-right: 0.313em; }
+.pr10 { padding-right: 0.625em; }
+.pr15 { padding-right: 10.313em; }
+.pr20 { padding-right: 1.250em; }
+.pr30 { padding-right: 1.875em; }
 
-.pt5 { padding-top: 5px; }
-.pt10 { padding-top: 10px; }
-.pt15 { padding-top: 15px; }
-.pt20 { padding-top: 20px; }
-.pt30 { padding-top: 30px; }
+.pt5 { padding-top: 0.313em; }
+.pt10 { padding-top: 0.625em; }
+.pt15 { padding-top: 10.313em; }
+.pt20 { padding-top: 1.250em; }
+.pt30 { padding-top: 1.875em; }
 
-.pb5 { padding-bottom: 5px; }
-.pb10 { padding-bottom: 10px; }
-.pb15 { padding-bottom: 15px; }
-.pb20 { padding-bottom: 20px; }
-.pb30 { padding-bottom: 30px; }
+.pb5 { padding-bottom: 0.313em; }
+.pb10 { padding-bottom: 0.625em; }
+.pb15 { padding-bottom: 10.313em; }
+.pb20 { padding-bottom: 1.250em; }
+.pb30 { padding-bottom: 1.875em; }
 
 
 
@@ -111,7 +111,7 @@ VERDANA:            font-family: Verdana, "Geneva CE", lucida, sans-serif;
 .block { display: block }
 .hidden { visibility: hidden; }
 .cleaner { clear: both; display: block; visibility: hidden; }
-.separator { height: 1px; background: #dcdcdc; display: block; margin-top: 20px; margin-bottom: 20px; }
+.separator { height: 1px; background: #dcdcdc; display: block; margin-top: 1.250em; margin-bottom: 1.250em; }
 
 .clearfix:after {
 	content: ".";
@@ -127,7 +127,7 @@ VERDANA:            font-family: Verdana, "Geneva CE", lucida, sans-serif;
 
 
 
-pre { font-size: 12px; line-height: 1.4; padding: 10px; margin: 1.3em 0; overflow: auto; max-height: 500px; background: #F1F5FB; border-radius: 5px; box-shadow: 0 1px 1px rgba(0, 0, 0, .1);  }
+pre { font-size: 12px; line-height: 1.4; padding: 0.625em; margin: 1.3em 0; overflow: auto; max-height: 500px; background: #F1F5FB; border-radius: 0.313em; box-shadow: 0 1px 1px rgba(0, 0, 0, .1);  }
 
 
 /* Procentual parts
