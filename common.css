@@ -40,18 +40,18 @@ VERDANA:            font-family: Verdana, "Geneva CE", lucida, sans-serif;
 .ml15 { margin-left: 10.313em; }
 .ml20 { margin-left: 1.250em; }
 .ml30 { margin-left: 1.875em; }
-.ml40 { margin-left: 40px; }
-.ml50 { margin-left: 50px; }
-.ml100 { margin-left: 100px; }
+.ml40 { margin-left: 2.500em; }
+.ml50 { margin-left: 3.125em; }
+.ml100 { margin-left: 6.250em; }
 
 .mr5 { margin-right: 0.313em; }
 .mr10 { margin-right: 0.625em; }
 .mr15 { margin-right: 10.313em; }
 .mr20 { margin-right: 1.250em; }
 .mr30 { margin-right: 1.875em; }
-.mr40 { margin-right: 40px; }
-.mr50 { margin-right: 50px; }
-.mr100 { margin-right: 100px; }
+.mr40 { margin-right: 2.500em; }
+.mr50 { margin-right: 3.125em; }
+.mr100 { margin-right: 6.250em; }
 
 .mt5 { margin-top: 0.313em; }
 .mt10 { margin-top: 0.625em; }
